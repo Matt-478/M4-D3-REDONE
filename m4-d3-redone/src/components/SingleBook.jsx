@@ -10,7 +10,7 @@ class SingleBook extends React.Component {
     return(
        <Card 
        onClick={() => this.setState({selected: !this.state.selected})}
-       style={{border: this.state.selected ? "3px solid blue" : "none"}}
+       style={{border: this.state.selected ? "4px solid orange" : "none"}}
        >
        <Card.Img variant="top" src={this.props.book.img} />
        <Card.Body>
