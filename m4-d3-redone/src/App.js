@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import MyBadge from './components/MyBadge'
 import SingleBook from './components/SingleBook'
 import fantasyBooks from './fantasy.json'
+import BookList from './components/BookList'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <WarningSign  text="Here's a warning"/>
         <MyBadge color="success" text="A little surprise"/>
         <SingleBook book={fantasyBooks[0]}/>
+        <BookList books={fantasyBooks}/>
       </header>
     </div>
   );
